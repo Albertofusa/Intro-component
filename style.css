@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+::selection {
+  background-color: green;
+  color: white;
+}
+
+.container {
+  height: 1000px;
+  width: 100%;
+  background-image: url(/bright-abstract-background-orange-color-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  height: 700px;
+  width: 100%;
+}
+
+.card-information {
+  width: 50%;
+  padding: 200px;
+}
+
+.card-information-title {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.card-information-p {
+  color: antiquewhite;
+  line-height: 25px;
+}
+
+.card-form {
+  width: 50%;
+}
+
+.card-form-button {
+  width: 550px;
+  border-radius: 8px;
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: -2px 8px 6px -2px rgba(0, 0, 0, 0.61);
+  padding: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.button1 {
+  color: white;
+}
+
+.button2 {
+  color: hsl(246, 25%, 77%);
+}
+
+.card-form-box {
+  width: 550px;
+  height: 500px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  font-size: 15px;
+  border-radius: 5px;
+  height: 60px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding-left: 15px;
+}
+
+.input {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+.form {
+  line-height: 80px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.card-form-button-end {
+  width: 100%;
+  border-radius: 8px;
+  background-color: hsl(154, 59%, 51%);
+  color: antiquewhite;
+  box-shadow: -2px 8px 6px -2px rgba(0, 0, 0, 0.61);
+  padding: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.card-form-p {
+  font-size: 14px;
+}
+
+.p1 {
+  color: hsl(246, 25%, 77%);
+}
+
+.p2 {
+  color: hsl(0, 100%, 74%);
+  font-weight: 800;
+}
