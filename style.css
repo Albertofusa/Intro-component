@@ -27,6 +27,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 150px;
 }
 
 .card {
@@ -37,7 +38,10 @@ button {
 
 .card-information {
   width: 50%;
-  padding: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-information-title {
@@ -54,10 +58,11 @@ button {
 
 .card-form {
   width: 50%;
+  height: 100%;
 }
 
 .card-form-button {
-  width: 550px;
+  width: 100%;
   border-radius: 8px;
   background-color: hsl(248, 32%, 49%);
   box-shadow: -2px 8px 6px -2px rgba(0, 0, 0, 0.61);
@@ -75,7 +80,7 @@ button {
 }
 
 .card-form-box {
-  width: 550px;
+  width: 100%;
   height: 500px;
   background-color: white;
   border-radius: 7px;
@@ -86,7 +91,6 @@ button {
 
 input {
   font-size: 15px;
-  border-radius: 5px;
   height: 60px;
   width: 100%;
   border: 0;
@@ -96,7 +100,7 @@ input {
 
 .input {
   border: 1px solid gainsboro;
-  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 input::placeholder {
@@ -104,8 +108,6 @@ input::placeholder {
 }
 
 .form {
-  line-height: 80px;
-  border-radius: 5px;
   margin-bottom: 15px;
 }
 
